@@ -1,0 +1,74 @@
+================================================================================
+APEX API CLIENT — RELEASE NOTES
+Version: 1.0 (Professional Edition - 32-bit Universal Build)
+Developer: MrRakib5007
+Release Date: August 2026
+================================================================================
+
+--------------------------------------------------------------------------------
+1. OVERVIEW
+--------------------------------------------------------------------------------
+Apex API Client v1.0 is a lightweight, responsive desktop tool designed to test,
+debug, and manage RESTful APIs with an intuitive graphical interface. This 
+universal 32-bit release provides seamless cross-compatibility across all modern 
+and legacy Windows operating systems (Windows 7 SP1, 8, 10, and 11).
+
+--------------------------------------------------------------------------------
+2. FOR USERS: NEW FEATURES & ENHANCEMENTS
+--------------------------------------------------------------------------------
+* Universal OS Compatibility:
+  - Full support for both 32-bit and 64-bit Windows architectures, including Windows 7.
+
+* Request & Collection Management:
+  - Multi-tab workspace with full request configuration (Params, Headers, Auth, Body).
+  - Tree-view sidebar supporting drag-and-drop organization for collections and folders.
+  - Quick actions for duplicating, renaming, and deleting requests and folders.
+
+* Authorization & Formats:
+  - Built-in support for Bearer Tokens and Basic Authentication.
+  - Automatic JSON body formatting and prettifying.
+
+* cURL Interoperability:
+  - One-click import: Paste any valid cURL command to populate method, headers, params, and body.
+  - One-click export: Generate reproducible cURL commands directly from your current workspace.
+
+* Modern UI & Themes:
+  - Light and Dark themes with customizable UI styling.
+  - Responsive response viewer with real-time status code badges, response time, and payload size metrics.
+  - Animated splash screen on startup.
+
+* Backup & Portability:
+  - Export and restore all collections and workspace settings to/from JSON files.
+
+--------------------------------------------------------------------------------
+3. FOR DEVELOPERS: ARCHITECTURE & TECHNICAL DETAILS
+--------------------------------------------------------------------------------
+* Runtime & Framework:
+  - Built with Python 3.8 (x86) and PyQt5 for maximum backward compatibility with older Windows kernels.
+  - Multi-threaded asynchronous networking via QThread and requests library to prevent UI freezing during long-running API calls.
+
+* Bundling & Distribution:
+  - Executable packaged using PyInstaller 32-bit with dynamic resource resolution (sys._MEIPASS support).
+  - Setup installer generated via Inno Setup with automatic Microsoft Visual C++ 2015–2022 (x86) Runtime silent dependency installation.
+  - Explicit Windows Application User Model ID (AppUserModelID) configuration for consistent taskbar and desktop icon pinning.
+
+* Key Dependencies:
+  - PyQt5
+  - requests
+  - pyinstaller
+  - qtawesome
+
+--------------------------------------------------------------------------------
+4. INSTALLATION & USAGE
+--------------------------------------------------------------------------------
+1. Run "apex_api_client_setup_v1.0_x86.exe" and follow the setup wizard.
+2. The installer will automatically configure necessary C++ runtime libraries.
+3. Launch "Apex API Client" via the Desktop shortcut or Start Menu.
+
+--------------------------------------------------------------------------------
+5. SUPPORT & DONATIONS
+--------------------------------------------------------------------------------
+* Developer: Rakib (@mrrakib5007)
+* Contact / Profile: https://github.com/mrrakib5007
+* Support development via Settings > Donation inside the application.
+================================================================================
